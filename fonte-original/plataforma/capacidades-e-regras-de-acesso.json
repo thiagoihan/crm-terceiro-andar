@@ -1,0 +1,28 @@
+{
+  "_explicacao": "Capacidades de execução declaradas ao publicar o crm.html como artifact no Claude (configuração da plataforma, não fica dentro do arquivo HTML). Estas regras de acesso são as únicas aplicadas no servidor hoje.",
+  "db": {
+    "rules": {
+      "process": "write admin",
+      "services": "write admin",
+      "objectives": "write admin",
+      "updates": "read view write admin",
+      "updates/{self}": "write interact"
+    },
+    "_leitura_das_regras": {
+      "admin": "quem tem acesso de Editor ao artifact (ou é o dono)",
+      "interact": "qualquer pessoa com acesso de uso (Colaborador)",
+      "view": "quem só pode visualizar",
+      "{self}": "o id da conta do próprio usuário",
+      "sem regra": "padrão da plataforma: leitura e escrita para quem pode usar o artifact"
+    }
+  },
+  "assets": {
+    "upload": "interact"
+  },
+  "user": {
+    "scopes": [
+      "profile"
+    ]
+  },
+  "sample": {}
+}

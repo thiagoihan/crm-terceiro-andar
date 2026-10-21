@@ -1,0 +1,547 @@
+{
+  "_uso": "famOf(cliente): procura cada palavra-chave (kw) no texto \" segmento + nome \" em minúsculas, na ordem de FAM_ORDER; sem correspondência = geral.",
+  "FAM_ORDER": [
+    "odonto",
+    "farmacia",
+    "transito",
+    "pet",
+    "estetica",
+    "fitness",
+    "mercado",
+    "food",
+    "moda",
+    "imob",
+    "educacao",
+    "saude",
+    "logistica",
+    "auto",
+    "varejo",
+    "servicos"
+  ],
+  "UM_publico_singular": {
+    "saude": "paciente",
+    "odonto": "paciente",
+    "estetica": "cliente",
+    "food": "cliente",
+    "varejo": "cliente",
+    "fitness": "aluno",
+    "educacao": "aluno",
+    "imob": "cliente",
+    "servicos": "cliente",
+    "pet": "tutor",
+    "auto": "cliente",
+    "geral": "cliente",
+    "farmacia": "cliente",
+    "moda": "cliente",
+    "mercado": "cliente",
+    "transito": "aluno",
+    "logistica": "cliente"
+  },
+  "FAMS": {
+    "saude": {
+      "l": "Clínicas e saúde",
+      "kw": [
+        "clínic",
+        "médic",
+        "hospital",
+        "laborat",
+        "saúde",
+        "fisio",
+        "psicol",
+        "terap",
+        "nutri",
+        "enferm",
+        "farm",
+        "dermat",
+        "pediatr",
+        "ginecol",
+        "urolog",
+        "oftalm",
+        "oftam",
+        "oftalm",
+        "otorrino",
+        "cardio",
+        "ortoped"
+      ],
+      "pub": "pacientes",
+      "dor": "adiar o cuidado com a saúde até virar problema",
+      "desejo": "se sentir bem e seguro com quem cuida dele",
+      "prod": "consulta ou avaliação",
+      "oferta": "agenda especial de avaliações com vagas limitadas na semana da data",
+      "presente": "um check-up ou pacote de cuidado para quem você ama",
+      "prova": "depoimentos de pacientes (com autorização) e bastidores do atendimento",
+      "aut": [
+        "3 sinais de que é hora de procurar um especialista",
+        "o erro mais comum que vemos no consultório",
+        "mito ou verdade sobre o assunto mais perguntado"
+      ],
+      "aviso": "Respeite as regras do conselho profissional (CFM, CRP, CRN, CREFITO): sem promessa de resultado, sem antes e depois sensacionalista e sem preço como chamariz."
+    },
+    "odonto": {
+      "l": "Odontologia",
+      "kw": [
+        "odont",
+        "dent",
+        "sorriso",
+        "ortodon",
+        "implant"
+      ],
+      "pub": "pacientes",
+      "dor": "ter vergonha de sorrir ou sentir dor e ir adiando",
+      "desejo": "sorrir sem receio em fotos e encontros",
+      "prod": "avaliação odontológica",
+      "oferta": "avaliação + plano de tratamento com condição de pagamento especial válida até a data",
+      "presente": "um vale-clareamento ou avaliação para presentear",
+      "prova": "histórias de pacientes e o passo a passo do tratamento (dentro das regras do CFO)",
+      "aut": [
+        "clareamento: o que é verdade e o que é mito",
+        "quanto tempo dura um tratamento de verdade",
+        "os 3 hábitos que mais destroem o sorriso"
+      ],
+      "aviso": "O CFO proíbe antes e depois, promessa de resultado e preço como chamariz. Foque em educação, bastidores e condição de pagamento."
+    },
+    "estetica": {
+      "l": "Estética e beleza",
+      "kw": [
+        "estét",
+        "beleza",
+        "salão",
+        "cabel",
+        "barbear",
+        "barbearia",
+        "cosmét",
+        "spa",
+        "unha",
+        "sobrancelha",
+        "maquiag",
+        "depila"
+      ],
+      "pub": "clientes",
+      "dor": "não se sentir bem com a própria imagem e não ter tempo para se cuidar",
+      "desejo": "chegar na data se sentindo bonita, confiante e cuidada",
+      "prod": "procedimento ou pacote",
+      "oferta": "pacote temático da data com bônus para quem agenda até 7 dias antes",
+      "presente": "um vale-presente de experiência de beleza",
+      "prova": "transformações reais, reações de clientes e a agenda lotando",
+      "aut": [
+        "o que fazer em casa para o resultado durar mais",
+        "o procedimento ideal para cada tipo de pele ou cabelo",
+        "3 erros que estragam o resultado"
+      ],
+      "aviso": "Procedimentos estéticos de saúde seguem regras do conselho: evite promessas de resultado."
+    },
+    "food": {
+      "l": "Restaurantes e alimentação",
+      "kw": [
+        "restaur",
+        "pizz",
+        "hamb",
+        "lanch",
+        "food",
+        "padar",
+        "caf",
+        "doce",
+        "confeit",
+        "chocol",
+        "bar",
+        "delivery",
+        "sorvet",
+        "açaí",
+        "marmit",
+        "bistrô",
+        "petisc",
+        "boteco",
+        "churrasc",
+        "espetinho",
+        "adega",
+        "culinár",
+        "culinar",
+        "marmit",
+        "buffet",
+        "salgad",
+        "cozinha"
+      ],
+      "pub": "clientes",
+      "dor": "não saber o que comer ou onde comemorar",
+      "desejo": "viver um momento gostoso e especial sem complicação",
+      "prod": "combo ou cardápio especial",
+      "oferta": "combo ou cardápio exclusivo da data, com pré-venda e retirada agendada",
+      "presente": "uma cesta, kit ou vale-experiência",
+      "prova": "vídeos do preparo, fila, mesa cheia e clientes reagindo à primeira mordida",
+      "aut": [
+        "os bastidores do prato mais pedido",
+        "como escolher o combo ideal para cada ocasião",
+        "a história por trás da receita"
+      ],
+      "aviso": ""
+    },
+    "varejo": {
+      "l": "Lojas e varejo",
+      "kw": [
+        "loja",
+        "moda",
+        "roupa",
+        "calçad",
+        "varejo",
+        "boutique",
+        "ótica",
+        "joia",
+        "acessór",
+        "presente",
+        "e-commerce",
+        "ecommerce",
+        "perfum",
+        "decor",
+        "móve",
+        "brinquedo",
+        "infantil"
+      ],
+      "pub": "clientes",
+      "dor": "não saber o que dar de presente e ficar na dúvida até a última hora",
+      "desejo": "acertar no presente e ser lembrado por isso",
+      "prod": "produto ou kit",
+      "oferta": "kits de presente prontos por faixa de preço, com embalagem especial e brinde para as primeiras compras",
+      "presente": "um kit pronto por faixa de preço",
+      "prova": "clientes recebendo o presente, unboxing e prateleira esvaziando",
+      "aut": [
+        "guia de presentes por perfil",
+        "como acertar o tamanho ou o estilo",
+        "o que está mais vendendo esta semana"
+      ],
+      "aviso": ""
+    },
+    "fitness": {
+      "l": "Academias e bem-estar",
+      "kw": [
+        "academ",
+        "personal",
+        "fitness",
+        "crossfit",
+        "pilates",
+        "yoga",
+        "funcional",
+        "esporte",
+        "luta",
+        "dança"
+      ],
+      "pub": "alunos",
+      "dor": "começar e desistir na segunda semana",
+      "desejo": "ter disposição e se sentir bem no próprio corpo",
+      "prod": "plano ou aula experimental",
+      "oferta": "aula experimental gratuita + matrícula com condição especial até a data",
+      "presente": "um plano ou aula para treinar junto",
+      "prova": "evolução de alunos reais, rotina da aula e comunidade",
+      "aut": [
+        "o treino ideal para quem tem pouco tempo",
+        "3 erros de quem está começando",
+        "o que comer antes e depois do treino"
+      ],
+      "aviso": ""
+    },
+    "educacao": {
+      "l": "Escolas e cursos",
+      "kw": [
+        "escol",
+        "curso",
+        "educa",
+        "faculd",
+        "idioma",
+        "ensino",
+        "mentor",
+        "treinament",
+        "colégio",
+        "creche"
+      ],
+      "pub": "alunos e famílias",
+      "dor": "sentir que está ficando para trás",
+      "desejo": "evoluir, ter mais oportunidades e segurança no futuro",
+      "prod": "matrícula ou aula experimental",
+      "oferta": "aula experimental ou matrícula com bônus (material, mensalidade) para quem fechar até a data",
+      "presente": "um curso ou vale de aulas",
+      "prova": "histórias de alunos, aprovações e o dia a dia em sala",
+      "aut": [
+        "como escolher o curso certo",
+        "o método que faz o aluno aprender de verdade",
+        "perguntas que todo pai faz antes de matricular"
+      ],
+      "aviso": ""
+    },
+    "imob": {
+      "l": "Imobiliárias, construção e arquitetura",
+      "kw": [
+        "imob",
+        "imóv",
+        "corret",
+        "construt",
+        "arquit",
+        "interior",
+        "engenh",
+        "loteam",
+        "condomín",
+        "reforma",
+        "marcen"
+      ],
+      "pub": "clientes",
+      "dor": "pagar aluguel ou viver num espaço que não combina com a família",
+      "desejo": "conquistar o lugar ideal com segurança",
+      "prod": "visita ou projeto",
+      "oferta": "condição especial (entrada facilitada, projeto ou visita guiada) para quem agendar até a data",
+      "presente": "a casa nova como o “presente” da família",
+      "prova": "entregas de chaves, tour pelo imóvel e famílias reais",
+      "aut": [
+        "quanto você precisa ganhar para financiar",
+        "os 5 erros mais caros na compra ou na reforma",
+        "tour pelo imóvel em 60 segundos"
+      ],
+      "aviso": ""
+    },
+    "servicos": {
+      "l": "Serviços profissionais e B2B",
+      "kw": [
+        "advoc",
+        "jurídic",
+        "contab",
+        "contád",
+        "consult",
+        "seguro",
+        "financ",
+        "agência",
+        "marketing",
+        "software",
+        "tecnolog",
+        "sistema",
+        "startup",
+        "b2b",
+        "rh",
+        "logíst",
+        "corretora"
+      ],
+      "pub": "clientes",
+      "dor": "perder dinheiro ou tempo por falta de orientação especializada",
+      "desejo": "resolver o problema com quem entende e ter tranquilidade",
+      "prod": "diagnóstico ou reunião",
+      "oferta": "diagnóstico gratuito ou condição de fechamento até a data, com vagas limitadas",
+      "presente": "um diagnóstico para o negócio",
+      "prova": "casos de clientes com números, depoimentos em vídeo e bastidores",
+      "aut": [
+        "os 3 erros que mais custam caro às empresas",
+        "checklist rápido para saber se você está em risco",
+        "pergunta mais comum que recebemos, respondida"
+      ],
+      "aviso": "Advogados seguem o Provimento 205/2021 da OAB: publicidade informativa, sem captação direta nem promessa de resultado."
+    },
+    "pet": {
+      "l": "Pet e veterinária",
+      "kw": [
+        "veterin",
+        "banho e tosa",
+        "animal",
+        "cão",
+        "gato",
+        "pet shop",
+        "petshop",
+        " pet ",
+        "pets",
+        "tosa"
+      ],
+      "pub": "tutores",
+      "dor": "se preocupar com a saúde e o bem-estar do pet",
+      "desejo": "ver o pet feliz, saudável e bem cuidado",
+      "prod": "consulta, banho ou produto",
+      "oferta": "pacote especial (banho + hidratação, check-up) com brinde para o pet até a data",
+      "presente": "um mimo ou check-up para o pet",
+      "prova": "pets reais, antes e depois do banho e reação dos tutores",
+      "aut": [
+        "sinais de que o pet precisa de atenção",
+        "o que nunca dar para o seu pet",
+        "rotina ideal de cuidados"
+      ],
+      "aviso": ""
+    },
+    "auto": {
+      "l": "Automotivo",
+      "kw": [
+        "auto",
+        "veícul",
+        "concession",
+        "mecân",
+        "oficina",
+        "carro",
+        "moto",
+        "pneu",
+        "estética automotiva",
+        "lava"
+      ],
+      "pub": "clientes",
+      "dor": "ser pego de surpresa por um problema no carro",
+      "desejo": "dirigir com segurança e sem dor de cabeça",
+      "prod": "revisão ou serviço",
+      "oferta": "revisão ou check-up com condição especial antes da data (viagens de feriado)",
+      "presente": "uma revisão ou higienização para presentear",
+      "prova": "bastidores da oficina, diagnóstico explicado e clientes satisfeitos",
+      "aut": [
+        "5 itens para checar antes de viajar",
+        "barulhos que você não pode ignorar",
+        "quanto custa adiar a manutenção"
+      ],
+      "aviso": ""
+    },
+    "farmacia": {
+      "l": "Farmácias e drogarias",
+      "kw": [
+        "farmác",
+        "farmac",
+        "drogar",
+        "manipula"
+      ],
+      "pub": "clientes",
+      "dor": "não saber qual produto usar ou ficar sem um atendimento de confiança",
+      "desejo": "cuidar da saúde da família com orientação de quem entende",
+      "prod": "produto ou serviço da farmácia",
+      "oferta": "combo de cuidado com orientação do farmacêutico até a data",
+      "presente": "um kit de cuidados",
+      "prova": "atendimento do farmacêutico e dúvidas reais respondidas",
+      "aut": [
+        "dúvidas comuns no balcão",
+        "como guardar medicamentos em casa",
+        "cuidados da estação"
+      ],
+      "aviso": "Siga as regras da Anvisa para propaganda: não prometa cura nem incentive a automedicação."
+    },
+    "moda": {
+      "l": "Moda e calçados",
+      "kw": [
+        "moda",
+        "roupa",
+        "calçad",
+        "calcad",
+        "boutique",
+        "vestu",
+        "confec",
+        "sapat",
+        "lingerie",
+        "multimarca",
+        "jeans"
+      ],
+      "pub": "clientes",
+      "dor": "não encontrar peças que combinem com o próprio estilo",
+      "desejo": "se vestir bem e se sentir confiante",
+      "prod": "peça ou look",
+      "oferta": "look completo com condição especial até a data",
+      "presente": "uma peça escolhida com carinho",
+      "prova": "clientes reais usando as peças e bastidores do provador",
+      "aut": [
+        "como combinar peças",
+        "tendências da estação",
+        "looks para cada ocasião"
+      ],
+      "aviso": ""
+    },
+    "mercado": {
+      "l": "Mercados, açougues e hortifrúti",
+      "kw": [
+        "açoug",
+        "acoug",
+        "mercad",
+        "supermerc",
+        "hortifrut",
+        "sacolão",
+        "sacolao",
+        "frios",
+        "empório",
+        "emporio",
+        "mercearia",
+        "carne",
+        "peixar",
+        "distribuidora de bebidas"
+      ],
+      "pub": "clientes",
+      "dor": "não confiar na qualidade e no frescor do que compra",
+      "desejo": "levar para casa produtos frescos e de qualidade, com bom atendimento",
+      "prod": "produto ou corte",
+      "oferta": "kit especial (churrasco, feira da semana) até a data",
+      "presente": "uma cesta ou kit",
+      "prova": "bastidores, chegada dos produtos e clientes fiéis",
+      "aut": [
+        "como escolher o melhor corte ou produto",
+        "como conservar em casa",
+        "receitas com os produtos da casa"
+      ],
+      "aviso": ""
+    },
+    "transito": {
+      "l": "Autoescolas e trânsito",
+      "kw": [
+        "autoescola",
+        "auto escola",
+        "auto-escola",
+        "cfc",
+        "habilita",
+        "trânsito",
+        "transito",
+        "despachante",
+        "vistoria"
+      ],
+      "pub": "alunos",
+      "dor": "ter medo de dirigir ou de reprovar no exame",
+      "desejo": "conquistar a habilitação com segurança e tranquilidade",
+      "prod": "curso ou pacote de aulas",
+      "oferta": "pacote de aulas com condição especial até a data",
+      "presente": "aulas de direção",
+      "prova": "alunos aprovados e depoimentos",
+      "aut": [
+        "dicas para a prova prática",
+        "erros mais comuns no exame",
+        "direção defensiva"
+      ],
+      "aviso": "Conteúdo de trânsito deve reforçar a segurança e as leis; evite imagens de condutas de risco."
+    },
+    "logistica": {
+      "l": "Transporte e logística",
+      "kw": [
+        "logíst",
+        "logistic",
+        "transport",
+        "frete",
+        "mudança",
+        "mudanca",
+        "courier",
+        "armazé",
+        "armaze",
+        "distribuidora",
+        "caminh",
+        "encomenda"
+      ],
+      "pub": "clientes",
+      "dor": "atrasos, avarias e falta de previsibilidade nas entregas",
+      "desejo": "entregas no prazo, com segurança e acompanhamento",
+      "prod": "serviço de transporte",
+      "oferta": "condição especial para novos contratos até a data",
+      "presente": "",
+      "prova": "frota, equipe, entregas realizadas e empresas atendidas",
+      "aut": [
+        "como preparar uma carga",
+        "prazos e rotas",
+        "bastidores da operação"
+      ],
+      "aviso": ""
+    },
+    "geral": {
+      "l": "Outros negócios",
+      "kw": [],
+      "pub": "clientes",
+      "dor": "não encontrar uma solução confiável",
+      "desejo": "ter o problema resolvido com quem entende",
+      "prod": "produto ou serviço",
+      "oferta": "condição especial com prazo e quantidade limitados até a data",
+      "presente": "um vale ou kit do seu produto",
+      "prova": "depoimentos, bastidores e clientes reais",
+      "aut": [
+        "a pergunta mais comum dos clientes, respondida",
+        "os bastidores de como fazemos",
+        "3 erros que você deve evitar"
+      ],
+      "aviso": ""
+    }
+  }
+}

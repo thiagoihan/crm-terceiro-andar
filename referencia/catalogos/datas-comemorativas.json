@@ -1,0 +1,693 @@
+{
+  "_formato_regra": "'MM-DD' data fixa | 'M:MM' mês temático | 'E±n' dias relativos à Páscoa | 'MAES' 2º domingo de maio | 'PAIS' 2º domingo de agosto | 'BF' Black Friday (sexta-feira seguinte à 4ª quinta-feira de novembro) | 'CM' Black Friday + 3 | 'D256' 256º dia do ano",
+  "_colunas": [
+    "id",
+    "regra",
+    "nome",
+    "categoria",
+    "palavras_chave_segmento (separadas por vírgula)",
+    "dica"
+  ],
+  "datas": [
+    [
+      "ano-novo",
+      "01-01",
+      "Confraternização Universal (Ano Novo)",
+      "feriado",
+      "",
+      "Metas, retrospectiva e agradecimento aos clientes."
+    ],
+    [
+      "farmaceutico",
+      "01-20",
+      "Dia do Farmacêutico",
+      "prof",
+      "farm,drogaria",
+      ""
+    ],
+    [
+      "jan-branco",
+      "M:01",
+      "Janeiro Branco · saúde mental",
+      "mes",
+      "psicol,terap,clínic,saúde mental",
+      "Conteúdo educativo sobre bem-estar emocional."
+    ],
+    [
+      "publicitario",
+      "02-01",
+      "Dia do Publicitário",
+      "prof",
+      "publicid,marketing,agência",
+      "Data da agência: bastidores e equipe."
+    ],
+    [
+      "carnaval",
+      "E-47",
+      "Carnaval",
+      "feriado",
+      "",
+      "Ponto facultativo. Promoções relâmpago e conteúdos leves; planeje o “abre e fecha” do expediente."
+    ],
+    [
+      "fev-roxo",
+      "M:02",
+      "Fevereiro Roxo e Laranja · Alzheimer, lúpus e leucemia",
+      "mes",
+      "clínic,médic,hospital,saúde",
+      ""
+    ],
+    [
+      "mulher",
+      "03-08",
+      "Dia Internacional da Mulher",
+      "comercial",
+      "",
+      "Evite clichês: dê voz a mulheres reais do cliente ou do público."
+    ],
+    [
+      "consumidor",
+      "03-15",
+      "Dia do Consumidor",
+      "comercial",
+      "",
+      "A “Black Friday do primeiro semestre”: descontos e condições especiais."
+    ],
+    [
+      "sexta-santa",
+      "E-2",
+      "Sexta-feira Santa",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "pascoa",
+      "E0",
+      "Páscoa",
+      "comercial",
+      "chocol,doce,confeit,padar,restaur",
+      "Uma das maiores datas do varejo de alimentos; comece a divulgar 3 semanas antes."
+    ],
+    [
+      "abr-azul",
+      "M:04",
+      "Abril Azul · conscientização sobre o autismo",
+      "mes",
+      "escol,educa,terap,clínic,pediatr",
+      ""
+    ],
+    [
+      "saude",
+      "04-07",
+      "Dia Mundial da Saúde",
+      "saude",
+      "saúde,clínic,médic,hospital,odont,academ,nutri",
+      "Conteúdo de prevenção e autoridade para a área da saúde."
+    ],
+    [
+      "tiradentes",
+      "04-21",
+      "Tiradentes",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "terra",
+      "04-22",
+      "Dia da Terra",
+      "saude",
+      "sustent,ambient",
+      ""
+    ],
+    [
+      "livro",
+      "04-23",
+      "Dia Mundial do Livro",
+      "cultura",
+      "livr,editor,escol,educa,curso",
+      ""
+    ],
+    [
+      "trabalhador",
+      "05-01",
+      "Dia do Trabalhador",
+      "feriado",
+      "",
+      "Homenagem à própria equipe do cliente."
+    ],
+    [
+      "maes",
+      "MAES",
+      "Dia das Mães",
+      "comercial",
+      "",
+      "Segunda maior data do varejo. Planeje com 30 a 45 dias de antecedência."
+    ],
+    [
+      "enfermeiro",
+      "05-12",
+      "Dia do Enfermeiro",
+      "prof",
+      "enferm,hospital,clínic",
+      ""
+    ],
+    [
+      "industria",
+      "05-25",
+      "Dia da Indústria",
+      "prof",
+      "indústr,fábric",
+      ""
+    ],
+    [
+      "cafe-nac",
+      "05-24",
+      "Dia Nacional do Café",
+      "cultura",
+      "caf,cafeter,padar",
+      ""
+    ],
+    [
+      "corpus",
+      "E60",
+      "Corpus Christi",
+      "feriado",
+      "",
+      "Ponto facultativo; muitos emendam o feriado."
+    ],
+    [
+      "hamburguer",
+      "05-28",
+      "Dia Mundial do Hambúrguer",
+      "cultura",
+      "hamb,lanch,restaur,food",
+      ""
+    ],
+    [
+      "mai-amarelo",
+      "M:05",
+      "Maio Amarelo · segurança no trânsito",
+      "mes",
+      "auto,veícul,seguro,concession,mecân",
+      ""
+    ],
+    [
+      "meio-ambiente",
+      "06-05",
+      "Dia Mundial do Meio Ambiente",
+      "saude",
+      "sustent,ambient,agro",
+      ""
+    ],
+    [
+      "namorados",
+      "06-12",
+      "Dia dos Namorados",
+      "comercial",
+      "",
+      "Combos, experiências e presentes. Divulgue a partir do fim de maio."
+    ],
+    [
+      "sao-joao",
+      "06-24",
+      "São João · festas juninas",
+      "cultura",
+      "",
+      "Arraiá, comidas típicas e identidade visual junina durante todo o mês."
+    ],
+    [
+      "orgulho",
+      "06-28",
+      "Dia do Orgulho LGBTQIA+",
+      "cultura",
+      "",
+      "Só faça se a marca tiver ações reais de inclusão para mostrar."
+    ],
+    [
+      "jun-vermelho",
+      "M:06",
+      "Junho Vermelho · doação de sangue",
+      "mes",
+      "hospital,clínic,laborat",
+      ""
+    ],
+    [
+      "chocolate",
+      "07-07",
+      "Dia Mundial do Chocolate",
+      "cultura",
+      "chocol,doce,confeit",
+      ""
+    ],
+    [
+      "pizza",
+      "07-10",
+      "Dia da Pizza",
+      "cultura",
+      "pizz,restaur,food",
+      ""
+    ],
+    [
+      "rock",
+      "07-13",
+      "Dia Mundial do Rock",
+      "cultura",
+      "music,bar,evento,show",
+      ""
+    ],
+    [
+      "amigo",
+      "07-20",
+      "Dia do Amigo",
+      "comercial",
+      "",
+      "Campanhas de indicação: “traga um amigo”."
+    ],
+    [
+      "avos",
+      "07-26",
+      "Dia dos Avós",
+      "comercial",
+      "",
+      ""
+    ],
+    [
+      "agricultor",
+      "07-28",
+      "Dia do Agricultor",
+      "prof",
+      "agro,rural,fazend",
+      ""
+    ],
+    [
+      "pais",
+      "PAIS",
+      "Dia dos Pais",
+      "comercial",
+      "",
+      "Quarta maior data do varejo. Comece a divulgar 3 semanas antes."
+    ],
+    [
+      "advogado",
+      "08-11",
+      "Dia do Advogado",
+      "prof",
+      "advoc,jurídic,direito",
+      ""
+    ],
+    [
+      "estudante",
+      "08-11",
+      "Dia do Estudante",
+      "prof",
+      "escol,curso,educa,faculd",
+      ""
+    ],
+    [
+      "fotografia",
+      "08-19",
+      "Dia Mundial da Fotografia",
+      "prof",
+      "foto,audiovis",
+      ""
+    ],
+    [
+      "psicologo",
+      "08-27",
+      "Dia do Psicólogo",
+      "prof",
+      "psicol,terap",
+      ""
+    ],
+    [
+      "corretor",
+      "08-27",
+      "Dia do Corretor de Imóveis",
+      "prof",
+      "imob,imóv,corret,construt",
+      ""
+    ],
+    [
+      "nutricionista",
+      "08-31",
+      "Dia do Nutricionista",
+      "prof",
+      "nutri,aliment,academ",
+      ""
+    ],
+    [
+      "ago-dourado",
+      "M:08",
+      "Agosto Dourado · aleitamento materno",
+      "mes",
+      "pediatr,matern,obstet,clínic",
+      ""
+    ],
+    [
+      "ed-fisica",
+      "09-01",
+      "Dia do Profissional de Educação Física",
+      "prof",
+      "academ,personal,fitness,crossfit,pilates",
+      ""
+    ],
+    [
+      "independencia",
+      "09-07",
+      "Independência do Brasil",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "veterinario",
+      "09-09",
+      "Dia do Médico Veterinário",
+      "prof",
+      "veterin,pet",
+      ""
+    ],
+    [
+      "beleza",
+      "09-09",
+      "Dia da Beleza",
+      "cultura",
+      "estét,beleza,salão,cabel,barbear,cosmét",
+      ""
+    ],
+    [
+      "programador",
+      "D256",
+      "Dia do Programador",
+      "prof",
+      "tecnolog,software,sistema,startup,ti",
+      ""
+    ],
+    [
+      "cliente",
+      "09-15",
+      "Dia do Cliente",
+      "comercial",
+      "",
+      "Agradecimento, brindes e condições para quem já é cliente: ótimo para retenção."
+    ],
+    [
+      "arvore",
+      "09-21",
+      "Dia da Árvore",
+      "saude",
+      "sustent,ambient,paisag",
+      ""
+    ],
+    [
+      "contador",
+      "09-22",
+      "Dia do Contador",
+      "prof",
+      "contab,contád",
+      ""
+    ],
+    [
+      "secretaria",
+      "09-30",
+      "Dia da Secretária",
+      "prof",
+      "escrit,clínic,consultór",
+      ""
+    ],
+    [
+      "set-amarelo",
+      "M:09",
+      "Setembro Amarelo · prevenção ao suicídio",
+      "mes",
+      "psicol,terap,clínic,saúde",
+      ""
+    ],
+    [
+      "cafe",
+      "10-01",
+      "Dia Internacional do Café",
+      "cultura",
+      "caf,cafeter,padar",
+      ""
+    ],
+    [
+      "idoso",
+      "10-01",
+      "Dia Internacional da Pessoa Idosa",
+      "saude",
+      "geriatr,clínic,farm,saúde",
+      ""
+    ],
+    [
+      "animais",
+      "10-04",
+      "Dia dos Animais",
+      "cultura",
+      "pet,veterin",
+      ""
+    ],
+    [
+      "mpe",
+      "10-05",
+      "Dia da Micro e Pequena Empresa",
+      "comercial",
+      "",
+      "Bom para mostrar a história e os bastidores de negócios locais."
+    ],
+    [
+      "criancas",
+      "10-12",
+      "Dia das Crianças",
+      "comercial",
+      "",
+      "Terceira maior data do varejo. Brinquedos, experiências e “volta à infância”."
+    ],
+    [
+      "aparecida",
+      "10-12",
+      "Nossa Senhora Aparecida",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "fisioterapeuta",
+      "10-13",
+      "Dia do Fisioterapeuta",
+      "prof",
+      "fisio,pilates,reabilit",
+      ""
+    ],
+    [
+      "professor",
+      "10-15",
+      "Dia do Professor",
+      "prof",
+      "escol,educa,curso,faculd",
+      ""
+    ],
+    [
+      "medico",
+      "10-18",
+      "Dia do Médico",
+      "prof",
+      "médic,clínic,hospital",
+      ""
+    ],
+    [
+      "dentista",
+      "10-25",
+      "Dia do Dentista",
+      "prof",
+      "odont,dent,sorriso",
+      ""
+    ],
+    [
+      "halloween",
+      "10-31",
+      "Halloween · Dia das Bruxas",
+      "cultura",
+      "",
+      "Conteúdos criativos e temáticos; funciona bem com público jovem."
+    ],
+    [
+      "out-rosa",
+      "M:10",
+      "Outubro Rosa · câncer de mama",
+      "mes",
+      "clínic,médic,mastolog,ginecol,laborat,saúde",
+      "Engaje o público com prevenção; marcas de qualquer área podem participar."
+    ],
+    [
+      "finados",
+      "11-02",
+      "Finados",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "designer",
+      "11-05",
+      "Dia do Designer",
+      "prof",
+      "design,arquit,interior",
+      ""
+    ],
+    [
+      "republica",
+      "11-15",
+      "Proclamação da República",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "empreend-fem",
+      "11-19",
+      "Dia do Empreendedorismo Feminino",
+      "comercial",
+      "",
+      ""
+    ],
+    [
+      "consciencia",
+      "11-20",
+      "Dia da Consciência Negra",
+      "feriado",
+      "",
+      ""
+    ],
+    [
+      "black-friday",
+      "BF",
+      "Black Friday",
+      "comercial",
+      "",
+      "Maior data do e-commerce. Comece o aquecimento (lista VIP, teasers) no início de novembro."
+    ],
+    [
+      "cyber-monday",
+      "CM",
+      "Cyber Monday",
+      "comercial",
+      "",
+      "Extensão da Black Friday, focada no online."
+    ],
+    [
+      "nov-azul",
+      "M:11",
+      "Novembro Azul · saúde do homem",
+      "mes",
+      "urolog,clínic,médic,laborat,barbear,saúde",
+      ""
+    ],
+    [
+      "arquiteto",
+      "12-15",
+      "Dia do Arquiteto",
+      "prof",
+      "arquit,interior,construt",
+      ""
+    ],
+    [
+      "vespera-natal",
+      "12-24",
+      "Véspera de Natal",
+      "comercial",
+      "",
+      ""
+    ],
+    [
+      "natal",
+      "12-25",
+      "Natal",
+      "feriado",
+      "",
+      "Maior data do varejo físico. Campanha começa no início de dezembro, ou logo após a Black Friday."
+    ],
+    [
+      "reveillon",
+      "12-31",
+      "Réveillon",
+      "comercial",
+      "",
+      "Retrospectiva do ano e mensagem de fim de ano."
+    ],
+    [
+      "dez-vermelho",
+      "M:12",
+      "Dezembro Vermelho · prevenção ao HIV/aids",
+      "mes",
+      "clínic,médic,laborat,saúde",
+      ""
+    ],
+    [
+      "churrasco",
+      "04-24",
+      "Dia Nacional do Churrasco",
+      "cultura",
+      "açoug,acoug,carne,churrasc,restaur,bar,boteco,petisc,espetinho",
+      "Kits, cortes ideais e receitas para o churrasco."
+    ],
+    [
+      "futebol",
+      "07-19",
+      "Dia Nacional do Futebol",
+      "cultura",
+      "bar,boteco,petisc,lanch,esporte,camis,açoug",
+      "Conteúdo com o time do coração do público e o jogo na TV."
+    ],
+    [
+      "feijoada",
+      "10-25",
+      "Dia Nacional da Feijoada",
+      "cultura",
+      "restaur,açoug,acoug,carne,bar,boteco,food",
+      "Cortes para feijoada, almoço de sábado."
+    ],
+    [
+      "cozinheiro",
+      "05-10",
+      "Dia do Cozinheiro",
+      "prof",
+      "restaur,lanch,food,padar,bar",
+      "Homenagem à equipe da cozinha, bastidores."
+    ],
+    [
+      "transito",
+      "09-25",
+      "Dia Nacional do Trânsito",
+      "cultura",
+      "autoescola,auto escola,cfc,habilita,trânsito,transito,transport,logíst,logistic,caminh",
+      "Fim da Semana Nacional de Trânsito (18 a 25/09): conteúdo de direção segura."
+    ],
+    [
+      "motorista",
+      "07-25",
+      "Dia do Motorista",
+      "prof",
+      "autoescola,auto escola,cfc,transport,logíst,logistic,caminh,frete,táxi,taxi",
+      "Homenagem a motoristas da equipe e dos clientes."
+    ],
+    [
+      "maio-amarelo",
+      "M:05",
+      "Maio Amarelo · segurança no trânsito",
+      "mes",
+      "autoescola,auto escola,cfc,habilita,trânsito,transito,transport,logíst,logistic,auto,oficina",
+      "Movimento de conscientização para um trânsito mais seguro."
+    ],
+    [
+      "uso-racional-med",
+      "05-05",
+      "Dia Nacional do Uso Racional de Medicamentos",
+      "saude",
+      "farm,drogar,manipula,clínic,médic",
+      "Orientação sobre uso correto de medicamentos, sem incentivar automedicação."
+    ]
+  ]
+}

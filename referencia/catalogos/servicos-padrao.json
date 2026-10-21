@@ -1,0 +1,72 @@
+[
+  {
+    "id": "s1",
+    "order": 1,
+    "name": "Gestão de tráfego pago",
+    "tagline": "Anúncios que colocam a sua empresa na frente de quem já está procurando o que você vende.",
+    "what": "Planejamos, criamos e otimizamos campanhas pagas no Meta (Instagram e Facebook) e no Google. Cada real investido é acompanhado e ajustado toda semana para trazer mais contatos pelo menor custo.",
+    "why": "Resultado rápido: as campanhas começam a gerar contatos já nas primeiras semanas\nPrevisibilidade: você sabe quanto custa cada cliente novo e pode planejar o crescimento\nAlcança quem já tem intenção de compra, no Google e nas redes\nEscala: quando funciona, basta aumentar o investimento\nTudo é medido, então nada é decidido no achismo",
+    "forWho": "Empresas que precisam de mais clientes de forma constante\nQuem vai lançar um produto, serviço ou campanha\nNegócios que dependem só de indicação e querem sair disso",
+    "deliverables": "Estratégia de campanhas e públicos\nConfiguração de pixel, conversões e rastreamento\nCriativos dos anúncios em parceria com o time de design e audiovisual\nOtimização semanal das campanhas\nRelatório mensal com resultados e próximos passos",
+    "metrics": "Custo por lead (CPL)\nCusto por venda (CPA)\nRetorno sobre o investimento em anúncios (ROAS)\nTaxa de cliques (CTR)",
+    "timeToResult": "Primeiros contatos em 1 a 3 semanas; campanhas estáveis e otimizadas a partir do 2º mês.",
+    "questions": "Quanto vocês podem investir em anúncios por mês?\nQual produto ou serviço traz mais lucro?\nQuanto vale um cliente novo para vocês?\nJá anunciaram antes? Como foi?",
+    "etapas": "Acessos e pixel configurados\nEstratégia de campanhas aprovada\nCriativos produzidos\nCampanhas no ar\nPrimeiro relatório de resultados"
+  },
+  {
+    "id": "s2",
+    "order": 2,
+    "name": "Conteúdo para redes sociais",
+    "tagline": "Um perfil que mostra quem vocês são, gera confiança e faz o cliente lembrar da sua marca.",
+    "what": "Cuidamos do planejamento, da criação e da publicação dos conteúdos: reels, carrosséis, posts e stories, com captação audiovisual e design próprios, sempre ligados a um objetivo de marketing.",
+    "why": "Gera autoridade: quem aparece com consistência vira referência no assunto\nAs pessoas pesquisam o seu perfil antes de comprar; ele precisa convencer\nAproxima a marca do público e cria relacionamento\nFortalece os anúncios: tráfego pago converte melhor num perfil bem cuidado\nVocê ganha tempo para focar no seu negócio",
+    "forWho": "Empresas com perfil parado ou sem padrão visual\nProfissionais que querem ser reconhecidos como referência\nMarcas que vendem pela confiança e pelo relacionamento",
+    "deliverables": "Planejamento mensal (catálogo) com pautas e objetivos\nRoteiros e legendas\nCaptação e edição de vídeos\nDesign de posts e carrosséis\nPublicação, acompanhamento e relatório mensal",
+    "metrics": "Alcance e crescimento de seguidores qualificados\nEngajamento (salvamentos, compartilhamentos, comentários)\nMensagens e contatos vindos do perfil\nVisualizações dos vídeos",
+    "timeToResult": "Perfil organizado no 1º mês; crescimento consistente de alcance e autoridade entre o 3º e o 6º mês.",
+    "questions": "Quais assuntos vocês dominam e gostam de falar?\nQuem pode aparecer nos vídeos?\nQuais perfis vocês admiram?\nCom que frequência conseguimos captar conteúdo?",
+    "etapas": "Planejamento do mês aprovado\nRoteiros e pautas aprovados\nCaptação audiovisual\nDesign e edição\nAprovação do cliente\nPublicação"
+  },
+  {
+    "id": "s3",
+    "order": 3,
+    "name": "Marketing de conteúdo e inbound",
+    "tagline": "Atrair, educar e converter clientes com conteúdo, sem depender só de anúncios.",
+    "what": "Criamos conteúdos que respondem às dúvidas do seu cliente (blog, materiais ricos, e-mails) e montamos a estrutura que transforma visitantes em contatos e contatos em clientes, de forma automática.",
+    "why": "Atrai clientes de forma contínua, mesmo sem anúncio ativo\nO cliente chega mais preparado e a venda fica mais fácil\nO conteúdo continua trabalhando por meses ou anos\nReduz o custo por cliente no longo prazo\nAparece no Google quando o cliente pesquisa",
+    "forWho": "Empresas com venda mais consultiva ou ticket mais alto\nNegócios em que o cliente pesquisa bastante antes de comprar\nQuem quer reduzir a dependência de mídia paga",
+    "deliverables": "Definição de persona e jornada de compra\nPlano editorial e artigos otimizados para o Google\nMateriais ricos (e-book, guia, checklist) para captar contatos\nLanding pages de captura\nFluxos de e-mail e nutrição dos contatos\nRelatório mensal de visitas, leads e oportunidades",
+    "metrics": "Visitas orgânicas ao site\nLeads gerados por conteúdo\nTaxa de conversão das landing pages\nOportunidades de venda geradas",
+    "timeToResult": "Primeiros leads com os materiais ricos em 1 a 2 meses; tráfego orgânico ganha força entre o 4º e o 8º mês.",
+    "questions": "Quais dúvidas o cliente sempre faz antes de comprar?\nQuanto tempo leva uma venda, do primeiro contato ao fechamento?\nVocês já têm site com blog?\nUsam alguma ferramenta de e-mail ou CRM?",
+    "etapas": "Persona e jornada definidas\nPlano editorial aprovado\nMaterial rico produzido\nLanding page e automação no ar\nPrimeiros conteúdos publicados\nRelatório de leads"
+  },
+  {
+    "id": "s4",
+    "order": 4,
+    "name": "Sites e landing pages",
+    "tagline": "A sua vitrine aberta 24 horas, feita para transformar visita em contato.",
+    "what": "Desenvolvemos sites institucionais e landing pages rápidos, bonitos e pensados para conversão, com textos estratégicos, design alinhado à marca e integração com WhatsApp, formulários e ferramentas de medição.",
+    "why": "Passa credibilidade: o cliente confere o site antes de fechar\nConverte melhor as campanhas de anúncio\nVocê é dono do canal, ao contrário das redes sociais\nAparece no Google para quem procura o seu serviço\nCentraliza informações e reduz perguntas repetidas",
+    "forWho": "Empresas sem site ou com site desatualizado\nQuem vai investir em tráfego pago e precisa de uma página que converta\nLançamentos, eventos e campanhas específicas",
+    "deliverables": "Mapa do site e estrutura das páginas\nTextos (copy) focados em conversão\nLayout exclusivo na identidade da marca\nVersão para celular\nIntegração com WhatsApp, formulários e Google Analytics\nPublicação e treinamento básico",
+    "metrics": "Taxa de conversão (visitas que viram contato)\nTempo de carregamento\nOrigem das visitas\nContatos gerados pelo site",
+    "timeToResult": "Landing page em 2 a 3 semanas; site institucional em 4 a 8 semanas, dependendo do tamanho.",
+    "questions": "Vocês já têm domínio e hospedagem?\nQual a ação principal que o visitante deve fazer?\nQuais páginas não podem faltar?\nTêm textos, fotos e depoimentos prontos?",
+    "etapas": "Briefing e mapa do site\nWireframe aprovado\nLayout aprovado\nConteúdo enviado pelo cliente\nDesenvolvimento\nPublicação e testes"
+  },
+  {
+    "id": "s5",
+    "order": 5,
+    "name": "Identidade visual e branding",
+    "tagline": "Uma marca clara, reconhecível e coerente em tudo o que a empresa mostra.",
+    "what": "Construímos ou renovamos a marca a partir do posicionamento: o que a empresa defende, como fala e como aparece. Isso vira logo, paleta, tipografia e um manual para aplicar tudo com consistência.",
+    "why": "Diferencia a empresa da concorrência\nPermite cobrar mais, porque marcas fortes passam mais valor\nDeixa toda a comunicação coerente, das redes à fachada\nFacilita o trabalho de todo o marketing daqui para frente\nCria reconhecimento: o cliente lembra de você",
+    "forWho": "Empresas novas que vão começar do jeito certo\nMarcas que cresceram e não representam mais o negócio\nQuem vai mudar de público, de preço ou de posicionamento",
+    "deliverables": "Imersão e diagnóstico da marca\nPlataforma de marca (propósito, posicionamento, tom de voz)\nLogo e variações\nPaleta de cores e tipografia\nAplicações (redes, papelaria, fachada)\nManual da marca",
+    "metrics": "Reconhecimento da marca\nPercepção de valor e ticket médio\nConsistência visual nos canais",
+    "timeToResult": "Projeto completo em 4 a 8 semanas.",
+    "questions": "O que a marca precisa transmitir em uma palavra?\nO que não gostam na marca atual?\nQuais marcas vocês admiram, mesmo de outros setores?\nOnde a marca mais aparece hoje?",
+    "etapas": "Imersão e diagnóstico\nPlataforma de marca aprovada\nProposta de logo\nAjustes e aprovação\nManual da marca entregue"
+  }
+]

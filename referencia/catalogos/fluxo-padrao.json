@@ -1,0 +1,66 @@
+[
+  {
+    "id": "s-brief",
+    "name": "Briefing com o cliente",
+    "area": "Relacionamento",
+    "sla": 2,
+    "desc": "Ponto único de contato com o cliente: entende a demanda, coleta materiais e acessos e alinha prazos. A equipe de produção não precisa falar com o cliente.",
+    "done": "Briefing registrado no projeto, materiais recebidos e prazo combinado."
+  },
+  {
+    "id": "s-estr",
+    "name": "Estratégia e foco de marketing",
+    "area": "Estratégia",
+    "sla": 3,
+    "desc": "Define objetivo, público, mensagem principal, formatos, roteiro e pauta de cada peça, ligando tudo ao foco de marketing do cliente.",
+    "done": "Roteiro e pauta aprovados internamente e enviados para produção."
+  },
+  {
+    "id": "s-capt",
+    "name": "Captação de vídeo e foto",
+    "area": "Audiovisual",
+    "sla": 3,
+    "desc": "Planeja e executa a gravação e as fotos seguindo o roteiro: locação, equipamento e lista de cenas.",
+    "done": "Material bruto organizado na pasta do cliente."
+  },
+  {
+    "id": "s-edit",
+    "name": "Edição do material",
+    "area": "Audiovisual",
+    "sla": 3,
+    "desc": "Edita vídeos e trata fotos no padrão visual do cliente: cortes, legendas, trilha e ganchos.",
+    "done": "Versão final exportada nos formatos de cada canal."
+  },
+  {
+    "id": "s-design",
+    "name": "Design das peças",
+    "area": "Design",
+    "sla": 3,
+    "desc": "Cria carrosséis, posts, capas e anúncios a partir da pauta e do material captado.",
+    "done": "Peças finalizadas e enviadas para a biblioteca de criativos."
+  },
+  {
+    "id": "s-rev",
+    "name": "Revisão interna",
+    "area": "Estratégia",
+    "sla": 1,
+    "desc": "Confere se cada peça cumpre o objetivo, o padrão da marca, o texto e as regras do segmento antes de ir para o cliente.",
+    "done": "Checklist de qualidade aprovado."
+  },
+  {
+    "id": "s-aprov",
+    "name": "Aprovação do cliente",
+    "area": "Relacionamento",
+    "sla": 3,
+    "desc": "Envia ao cliente, cobra o retorno e devolve os ajustes consolidados em uma única rodada para a produção.",
+    "done": "Aprovação registrada por escrito."
+  },
+  {
+    "id": "s-pub",
+    "name": "Publicação e entrega",
+    "area": "Relacionamento",
+    "sla": 1,
+    "desc": "Agenda ou publica as peças, entrega os arquivos e atualiza o catálogo do mês.",
+    "done": "Peças publicadas e catálogo marcado como Publicado."
+  }
+]

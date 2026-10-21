@@ -1,0 +1,102 @@
+{
+  "CHECK": [
+    {
+      "id": "c1",
+      "l": "Contrato assinado",
+      "who": "agencia"
+    },
+    {
+      "id": "c2",
+      "l": "Primeira mensalidade paga",
+      "who": "cliente"
+    },
+    {
+      "id": "c3",
+      "l": "Reunião de kickoff realizada",
+      "who": "agencia"
+    },
+    {
+      "id": "c4",
+      "l": "Grupo de comunicação criado (WhatsApp ou e-mail)",
+      "who": "agencia"
+    },
+    {
+      "id": "c5",
+      "l": "Cliente cadastrado no helpdesk",
+      "who": "agencia"
+    },
+    {
+      "id": "c6",
+      "l": "Acesso às redes sociais",
+      "who": "cliente"
+    },
+    {
+      "id": "c7",
+      "l": "Acesso ao gerenciador de anúncios (Meta / Google)",
+      "who": "cliente"
+    },
+    {
+      "id": "c8",
+      "l": "Logo em alta e manual da marca",
+      "who": "cliente"
+    },
+    {
+      "id": "c9",
+      "l": "Fotos e vídeos da empresa",
+      "who": "cliente"
+    },
+    {
+      "id": "c10",
+      "l": "Acesso ao site e domínio",
+      "who": "cliente"
+    },
+    {
+      "id": "c11",
+      "l": "Diagnóstico preenchido",
+      "who": "agencia"
+    },
+    {
+      "id": "c12",
+      "l": "Catálogo do primeiro mês montado",
+      "who": "agencia"
+    }
+  ],
+  "DIAG": [
+    [
+      "q1",
+      "Como a empresa se apresenta hoje, em uma frase?"
+    ],
+    [
+      "q2",
+      "Quem é o cliente ideal? (perfil, região, ticket médio)"
+    ],
+    [
+      "q3",
+      "Quem são os principais concorrentes e o que diferencia vocês?"
+    ],
+    [
+      "q4",
+      "Qual o principal objetivo para os próximos 3 meses?"
+    ],
+    [
+      "q5",
+      "O que já foi feito de marketing? O que funcionou e o que não funcionou?"
+    ],
+    [
+      "q6",
+      "Como os clientes chegam hoje? (indicação, Instagram, Google…)"
+    ],
+    [
+      "q7",
+      "Quanto pode ser investido em mídia paga por mês?"
+    ],
+    [
+      "q8",
+      "Quem aprova os conteúdos e qual o melhor canal para falar com essa pessoa?"
+    ],
+    [
+      "q9",
+      "Quais datas, lançamentos ou campanhas importantes vêm nos próximos meses?"
+    ]
+  ]
+}

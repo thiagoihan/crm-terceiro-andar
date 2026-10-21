@@ -1,0 +1,373 @@
+{
+  "_origem": "Constantes extraídas de crm.html (estado final após os módulos de sobrescrita).",
+  "PRIOS": [
+    {
+      "id": "critico",
+      "l": "Crítico"
+    },
+    {
+      "id": "alto",
+      "l": "Alto"
+    },
+    {
+      "id": "medio",
+      "l": "Médio"
+    },
+    {
+      "id": "baixo",
+      "l": "Baixo"
+    }
+  ],
+  "MSTATES_legado": [
+    "Pendente",
+    "Em andamento",
+    "Aguardando cliente",
+    "Concluído"
+  ],
+  "PIPE": [
+    "Prospecção",
+    "Primeiro contato",
+    "Diagnóstico",
+    "Proposta enviada",
+    "Negociação",
+    "Fechado",
+    "Perdido"
+  ],
+  "AREAS": [
+    "Relacionamento",
+    "Estratégia",
+    "Audiovisual",
+    "Design",
+    "Social media",
+    "Tráfego pago",
+    "Copywriting",
+    "Comercial",
+    "Desenvolvimento interno",
+    "Gestão"
+  ],
+  "KINDS_EXT": [
+    "Prospecção",
+    "Diagnóstico",
+    "Apresentação de proposta",
+    "Onboarding / kickoff",
+    "Alinhamento de projeto",
+    "Aprovação de conteúdo",
+    "Resultados do mês",
+    "Captação / gravação",
+    "Devolutiva e acompanhamento"
+  ],
+  "KINDS_INT": [
+    "Reunião de equipe",
+    "Treinamento",
+    "Alinhamento de projeto",
+    "Planejamento do mês",
+    "Brainstorm criativo",
+    "Conversa individual (1:1)",
+    "Revisão de resultados"
+  ],
+  "CR_STATUS": [
+    "Em criação",
+    "Em aprovação",
+    "Ajustes solicitados",
+    "Aprovado",
+    "Publicado"
+  ],
+  "FORMATS": [
+    "Reels",
+    "Carrossel",
+    "Post estático",
+    "Stories",
+    "Vídeo longo",
+    "Captação audiovisual",
+    "Anúncio",
+    "Blog / artigo",
+    "E-mail marketing",
+    "Live",
+    "Peça gráfica"
+  ],
+  "CHANNELS": [
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "LinkedIn",
+    "Facebook",
+    "Site",
+    "E-mail",
+    "WhatsApp",
+    "Google"
+  ],
+  "CSTATUS": [
+    "Planejado",
+    "Em produção",
+    "Aprovado",
+    "Publicado"
+  ],
+  "SOURCES": [
+    "Indicação",
+    "Instagram",
+    "Site",
+    "Prospecção ativa",
+    "Evento",
+    "Tráfego pago",
+    "Outro"
+  ],
+  "CP_STATUS": [
+    "Ideia",
+    "Planejando",
+    "Em produção",
+    "Aprovada",
+    "No ar",
+    "Encerrada"
+  ],
+  "TK_STATUS": [
+    "Aberto",
+    "Em execução",
+    "Em andamento",
+    "Em espera",
+    "Aguardando cliente",
+    "Aguardando aprovação",
+    "Aprovado",
+    "Concluída"
+  ],
+  "TK_TIPOS": [
+    "Banner",
+    "Outdoor",
+    "Encarte",
+    "Apresentação",
+    "Demanda extra",
+    "Calendário",
+    "Busdoor",
+    "Captação",
+    "Cardápio",
+    "Uniforme",
+    "Relatório",
+    "Demanda pós-horário",
+    "Reunião",
+    "Não se aplica"
+  ],
+  "TK_CATS": [
+    "Edição de foto",
+    "Edição de vídeo",
+    "Captação de foto",
+    "Captação de vídeo",
+    "Arte",
+    "Não se aplica"
+  ],
+  "TK_SUBS": [
+    "Feed",
+    "Stories",
+    "Feed e stories",
+    "Reels",
+    "Site",
+    "Não se aplica"
+  ],
+  "NIVEL_O": [
+    {
+      "v": "1",
+      "l": "Nível 1 · simples (1 ponto)"
+    },
+    {
+      "v": "2",
+      "l": "Nível 2 · médio (2 pontos)"
+    },
+    {
+      "v": "3",
+      "l": "Nível 3 · complexo (3 pontos)"
+    }
+  ],
+  "FU_TYPES": [
+    "Follow-up estratégico",
+    "Resultado da entrega",
+    "Relacionamento",
+    "Pós-venda",
+    "Renovação",
+    "Data especial do cliente"
+  ],
+  "FU_CH": [
+    "WhatsApp",
+    "Ligação",
+    "Reunião",
+    "E-mail",
+    "Visita",
+    "Mensagem no Instagram"
+  ],
+  "FU_RES": [
+    "Ótimo resultado",
+    "Bom resultado",
+    "Neutro",
+    "Abaixo do esperado",
+    "Ainda sem dados"
+  ],
+  "CAD_STEPS": [
+    1,
+    3,
+    7,
+    15
+  ],
+  "CAD_GOAL": {
+    "1": "Primeiro contato: apresentar a agência e entender o momento do negócio",
+    "3": "Enviar um caso, conteúdo ou ideia útil para o segmento",
+    "7": "Propor uma conversa de diagnóstico com data marcada",
+    "15": "Último toque: perguntar se faz sentido seguir agora ou em outro momento"
+  },
+  "CAD_RES": [
+    "Respondeu e avançou",
+    "Respondeu, pediu para retornar depois",
+    "Sem resposta",
+    "Não tem interesse"
+  ],
+  "LOST_R": [
+    "Preço",
+    "Sem retorno do contato",
+    "Escolheu outra agência",
+    "Momento / sem verba agora",
+    "Não era o perfil",
+    "Vai fazer internamente",
+    "Outro"
+  ],
+  "CHURN_R": [
+    "Resultado abaixo do esperado",
+    "Preço / corte de custos",
+    "Atendimento",
+    "Levou para dentro de casa",
+    "Fechou ou pausou o negócio",
+    "Outro"
+  ],
+  "RS_F": [
+    [
+      "leads",
+      "Leads gerados"
+    ],
+    [
+      "conversas",
+      "Conversas iniciadas"
+    ],
+    [
+      "alcance",
+      "Alcance"
+    ],
+    [
+      "seguidores",
+      "Novos seguidores"
+    ],
+    [
+      "investimento",
+      "Investimento em mídia (R$)"
+    ],
+    [
+      "vendas",
+      "Vendas"
+    ],
+    [
+      "faturamento",
+      "Faturamento informado (R$)"
+    ]
+  ],
+  "AP_CH": [
+    "WhatsApp",
+    "E-mail",
+    "Reunião",
+    "Ligação",
+    "Helpdesk",
+    "Pessoalmente"
+  ],
+  "UP_KINDS": [
+    "Atualização",
+    "Resultado",
+    "Estratégia",
+    "Combinado com o cliente",
+    "Ponto de atenção",
+    "Elogio"
+  ],
+  "PROF_STYLES": [
+    [
+      "analitico",
+      "Analítico",
+      "Decide com dados e detalhes. Leve números, prazos e comparações; evite exageros e promessas vagas."
+    ],
+    [
+      "direto",
+      "Direto ao ponto",
+      "Quer resultado e objetividade. Seja breve, comece pela conclusão e traga opções claras para ele decidir."
+    ],
+    [
+      "relacional",
+      "Relacional",
+      "Valoriza vínculo e confiança. Pergunte como ele está, ouça antes de propor e evite pressão."
+    ],
+    [
+      "expressivo",
+      "Visionário",
+      "Gosta de ideias e novidades. Mostre referências e o potencial, depois detalhe o plano."
+    ]
+  ],
+  "RD_KINDS": [
+    "Esporte",
+    "Data e feriado",
+    "Evento local",
+    "Clima",
+    "Tendência",
+    "Economia e consumo",
+    "Notícia"
+  ],
+  "DT_CATS": {
+    "comercial": [
+      "Datas comerciais",
+      "p-acc"
+    ],
+    "feriado": [
+      "Feriados nacionais",
+      "p-medio"
+    ],
+    "prof": [
+      "Dias das profissões",
+      "p-alto"
+    ],
+    "saude": [
+      "Saúde e meio ambiente",
+      "p-ok"
+    ],
+    "cultura": [
+      "Cultura e estilo de vida",
+      ""
+    ],
+    "mes": [
+      "Meses temáticos",
+      "p-baixo"
+    ],
+    "custom": [
+      "Datas personalizadas",
+      "p-critico"
+    ]
+  },
+  "DT_YEARS": [
+    2026,
+    2027,
+    2028
+  ],
+  "CH_LIST": [
+    {
+      "id": "geral",
+      "l": "Geral",
+      "d": "Conversas e atualizações de toda a equipe"
+    }
+  ],
+  "COLS": [
+    "members",
+    "clients",
+    "projects",
+    "meetings",
+    "objectives",
+    "catalog",
+    "services",
+    "creatives",
+    "campaigns",
+    "dates",
+    "suggestions",
+    "process",
+    "todos",
+    "follows",
+    "results",
+    "radar"
+  ]
+}
